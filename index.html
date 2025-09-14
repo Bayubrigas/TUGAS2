@@ -3,34 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beranda Itera</title>
+  <title>Login Itera</title>
 </head>
 <body>
   <header>
     <img src="logo-itera.png" alt="logo itera" width="40" height="45">
     <h1>Itera Blog</h1>
-    <nav>
-      <a href="index.html">Beranda</a>
-      <a href="daftarBerita.html">Berita Itera</a>
-      <a href="login.html">Logout</a>
-    </nav>
   </header>
   <main>
-    <section class="berita">
-      <h2>Selamat Datang di Itera Blog</h2>
-      <p>Selamat datang di blog Institut Teknologi Sumatera (Itera). Di sini, Anda akan menemukan berbagai informasi terbaru seputar kehidupan kampus, inovasi teknologi, kegiatan mahasiswa, serta pencapaian dan prestasi yang membanggakan dari seluruh civitas akademika Itera. Silahkan baca berbagai artikel menarik tentang Itera agar tetap update dengan perkembangan kampus Itera.</p>
-    </section>
-    <aside>
-      <h2>Related Article</h2>
-      <ul>
-        <li><a href="berita1.html">Itera Melakukan Akreditasi</a></li>
-        <li><a href="berita2.html">Infrastruktur Itera Berkembang Pesat</a></li>
-        <li><a href="berita3.html">Dies Natalis Itera ke-11</a></li>
-      </ul>
-    </aside>
+    <h2>Login</h2>
+    <form action="index.html" method="get">
+      <table>
+        <tr>
+          <td><label for="username">Username:</label></td>
+          <td><input type="text" id="username" name="username" required></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" id="password" name="password" required></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">Login</button></td>
+        </tr>
+      </table>
+    </form>
   </main>
-  <footer>
-    <p>&copy; 2024 Itera</p>
-  </footer>
 </body>
 </html>
